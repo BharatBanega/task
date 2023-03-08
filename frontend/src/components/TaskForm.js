@@ -30,8 +30,6 @@ const TaskForm = () => {
       setEmptyFields([])
       setError(null)
       setTitle('')
-      setLoad('')
-      setReps('')
       dispatch({type: 'CREATE_TASK', payload: json})
     }
 
